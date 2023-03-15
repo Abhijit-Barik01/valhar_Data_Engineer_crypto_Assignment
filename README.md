@@ -3,6 +3,7 @@
 ## Code has two version   --i)   Notebook II)   modular(oops) way .
 
 modular(oops way project structure)
+
 ![image](https://user-images.githubusercontent.com/71961635/225427177-d2312255-9b03-496c-8659-4fdfa81207d6.png)
 
 
@@ -58,15 +59,28 @@ For that reason you can execute ipython notebook in google colab.
 ## BITCOIN VS ETHEREUM MARKET OPEN PRICE
 ![image](https://user-images.githubusercontent.com/71961635/225414723-bb1256a1-8eeb-47be-aab5-a350653a329b.png)
 
-#CONCLUSION :-> BEST CRYPTO IS BITCOIN .BEST INESTMENT WILL BE BITCOIN,THEN ETHEREUM.BITCOIN PRICE ALWAYS HIGHER THAN ANY OTHER CRYPTO.
+# CONCLUSION :-> BEST CRYPTO IS BITCOIN .BEST INESTMENT WILL BE BITCOIN,THEN ETHEREUM.BITCOIN PRICE ALWAYS HIGHER THAN ANY OTHER CRYPTO.
+
+
 #                                **** LOAD DATA IN S3 USIN LAMBDA****
 # CREATING AN AWS LAMDA FUNCTION & WRITE DOWN PYTHON CODE TO LOAD DATA IN S3
 ![image](https://user-images.githubusercontent.com/71961635/225418739-8f2f4743-5623-43fe-8ce9-3e9486371dee.png)
+
 ![image](https://user-images.githubusercontent.com/71961635/225418808-9ca30003-66a3-413d-91f7-275e753b4bb6.png)
-## CONFIGURE LAMBDA  FUCTION SETTINGS AND POLICIES
+## CONFIGURE LAMBDA  FUNCTION SETTINGS AND SERVICE ROLE.
 ![image](https://user-images.githubusercontent.com/71961635/225419792-997f730c-92b4-4001-9d2c-ffc92e4fb9a1.png)
 
-## CREATE A S3 BUCKET AND LOAD DATA INTO S3
+## CREATE A S3 BUCKET
+![image](https://user-images.githubusercontent.com/71961635/225430602-21bb9193-5433-4f30-b9e6-837cb13b1030.png)
+
+## LOAD DATA INTO S3 USING PYTHON CODE
 ![image](https://user-images.githubusercontent.com/71961635/225419253-38de7339-1db6-45b2-977d-4c1dc029cc3d.png)
+
+#                         ****HOW TO RUN PROJECT****
+# I)  CLONE THE PROJECT
+# II) pip install -r requirements.txt 
+# III) FIRST RUN webscrap.py FILE,IT WILL SCRAP  DATA FROM COINDCX API(https://docs.coindcx.com/?python#candles) AND GENERATE A cryptocurrencies_df.csv FILE
+# IV)  THEN RUN crypto_analysis.py FILE to GET ANALYSIS RESULTFROM cryptocurrencies_df.csv
+# V)   lambda_code.py WILL RUN PROPERLY IN AWS LAMBDA
 
 
