@@ -77,10 +77,10 @@ For that reason you can execute ipython notebook in google colab.
 ![image](https://user-images.githubusercontent.com/71961635/225419253-38de7339-1db6-45b2-977d-4c1dc029cc3d.png)
 
 #                         ****HOW TO RUN PROJECT****
-# I)  CLONE THE PROJECT
-# II) pip install -r requirements.txt 
-# III) FIRST RUN webscrap.py FILE,IT WILL SCRAP  DATA FROM COINDCX API(https://docs.coindcx.com/?python#candles) AND GENERATE A cryptocurrencies_df.csv FILE
-# IV)  THEN RUN crypto_analysis.py FILE to GET ANALYSIS RESULTFROM cryptocurrencies_df.csv
-# V)   lambda_code.py WILL RUN PROPERLY IN AWS LAMBDA
+## I)  CLONE THE PROJECT
+## II) pip install -r requirements.txt 
+## III) FIRST RUN webscrap.py FILE,IT WILL SCRAP  DATA FROM COINDCX API(https://docs.coindcx.com/?python#candles) AND GENERATE A cryptocurrencies_df.csv FILE
+## IV)  THEN RUN crypto_analysis.py FILE to GET ANALYSIS RESULTFROM cryptocurrencies_df.csv
+## V)   lambda_code.py WILL RUN PROPERLY IN AWS LAMBDA
 
 
