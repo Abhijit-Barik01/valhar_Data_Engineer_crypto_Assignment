@@ -1,0 +1,13 @@
+requests
+boto3
+numpy
+pandas
+datetime
+python-dateutil
+seaborn
+plotly
+datetime
+matplotlib
+pyspark
+pandas_datareader
+
