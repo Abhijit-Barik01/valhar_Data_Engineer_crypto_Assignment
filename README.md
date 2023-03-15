@@ -88,7 +88,7 @@ For that reason you can execute ipython notebook in google colab.
 ## II)  pip install -r requirements.txt 
 ## III) FIRST RUN webscrap.py FILE,IT WILL SCRAP  DATA FROM COINDCX API(https://docs.coindcx.com/?python#candles) AND GENERATE A cryptocurrencies_df.csv FILE
 ## IV)  THEN RUN crypto_analysis.py FILE to GET ANALYSIS RESULTFROM cryptocurrencies_df.csv.
-(NOTE: Here I am using pyspark.Sometime some system will throw java gateway error  pyspark.session creating.This error is system specific not code's fault.Code is 100% bug free.If u face this type of erroruse iypython notebook in google colab.)
+(NOTE: Here I am using pyspark.Sometime some system will throw java gateway error  at pyspark.session creating.This error is system specific not code's fault.Code is 100% bug free.If u face this type of error use iypython notebook in google colab.)
 
 ## V)   lambda_code.py WILL RUN PROPERLY IN AWS LAMBDA
 
