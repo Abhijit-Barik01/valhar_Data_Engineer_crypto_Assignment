@@ -18,7 +18,7 @@ For that reason you can execute ipython notebook in google colab.
 ## only bitcoin
 ![image](https://user-images.githubusercontent.com/71961635/225386734-8a57eafb-1b7f-4998-9aba-274d4251cebe.png)
 
-## only etherium
+## only Ethereum
 ![image](https://user-images.githubusercontent.com/71961635/225386997-c62da3b7-85ec-4448-a20b-7f8c4610a645.png)
 
 ## TOP 5 CRYPTO 
@@ -31,12 +31,12 @@ For that reason you can execute ipython notebook in google colab.
 ## AVERAGE PRICE OF BTC IN LAST 30 DAYS
 ![image](https://user-images.githubusercontent.com/71961635/225408659-d5c08c06-34b2-40df-a868-13ad1b6ce2bb.png)
 
-## MAX,MIN AND STD OF BTC IN LAST 30 DAYS
+## MAX,MIN AND STD OF BITCOIN(BTC) IN LAST 30 DAYS
 ![image](https://user-images.githubusercontent.com/71961635/225408742-93b08185-aa96-4798-9a40-4b46575c5a83.png)
 ![image](https://user-images.githubusercontent.com/71961635/225408781-e959ec5f-1ac1-4f88-b7bb-b94f03755a54.png)
 
 
-## AVERAGE PRICE OF ETH IN LAST 30 DAYS
+## AVERAGE PRICE OF ETHEREUM(ETH) IN LAST 30 DAYS
 
 ![image](https://user-images.githubusercontent.com/71961635/225409106-929c5ebd-c6ef-4129-aa0f-2614b3794581.png)
 
@@ -77,10 +77,19 @@ For that reason you can execute ipython notebook in google colab.
 ![image](https://user-images.githubusercontent.com/71961635/225419253-38de7339-1db6-45b2-977d-4c1dc029cc3d.png)
 
 #                         ****HOW TO RUN PROJECT****
-## I)  CLONE THE PROJECT
-## II) pip install -r requirements.txt 
+
+### First method
+
+## Run ipython notebook in google colab.
+
+### 2nd method
+
+## I)   CLONE THE PROJECT
+## II)  pip install -r requirements.txt 
 ## III) FIRST RUN webscrap.py FILE,IT WILL SCRAP  DATA FROM COINDCX API(https://docs.coindcx.com/?python#candles) AND GENERATE A cryptocurrencies_df.csv FILE
-## IV)  THEN RUN crypto_analysis.py FILE to GET ANALYSIS RESULTFROM cryptocurrencies_df.csv
+## IV)  THEN RUN crypto_analysis.py FILE to GET ANALYSIS RESULTFROM cryptocurrencies_df.csv.
+(NOTE: Here I am using pyspark.Sometime some system will throw java gateway error  pyspark.session creating.This error is system specific not code's fault.Code is 100% bug free.If u face this type of erroruse iypython notebook in google colab.)
+
 ## V)   lambda_code.py WILL RUN PROPERLY IN AWS LAMBDA
 
 
