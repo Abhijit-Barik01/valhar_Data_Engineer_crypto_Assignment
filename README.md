@@ -43,28 +43,30 @@ For that reason you can execute ipython notebook in google colab.
 ![image](https://user-images.githubusercontent.com/71961635/225409173-f5d2add4-654f-48e9-9dc9-697f7287a5c4.png)
 ![image](https://user-images.githubusercontent.com/71961635/225409220-33ff0e50-4199-4eed-a107-c8c41c1f9a79.png)
 
-#CORRELATION BETWEEN  Ethereum OPEN VS BITCOIN OPEN
+## CORRELATION BETWEEN  ETHEREUM OPEN VS BITCOIN OPEN
 ![image](https://user-images.githubusercontent.com/71961635/225409378-06ab0e51-d6ec-49df-b62e-00292d503902.png)
 
-** CORRELATION BETWEEN ETH VS BTC
+## CORRELATION HEATMAP
 ![image](https://user-images.githubusercontent.com/71961635/225412651-22962f66-3a74-491b-b79a-13c51f8a727f.png)
 ![image](https://user-images.githubusercontent.com/71961635/225412694-b0c575c5-b380-47d7-9758-d88665ab74b6.png)
 
 ## NO OUTLIERS
 ![image](https://user-images.githubusercontent.com/71961635/225412825-51e4232c-364b-4147-993b-df4aaa50e25a.png)
-# BITCOIN OPEN MARKET OPEN PRICE VS DATE
+## BITCOIN MARKET OPEN PRICE VS DATE
 ![image](https://user-images.githubusercontent.com/71961635/225414558-7d534798-6cae-4cf3-bbc7-3e0dac7b2b8f.png)
 
-#Bitcoin VS Ethereum market open price
+## BITCOIN VS ETHEREUM MARKET OPEN PRICE
 ![image](https://user-images.githubusercontent.com/71961635/225414723-bb1256a1-8eeb-47be-aab5-a350653a329b.png)
 
+#CONCLUSION :-> BEST CRYPTO IS BITCOIN .BEST INESTMENT WILL BE BITCOIN,THEN ETHEREUM.BITCOIN PRICE ALWAYS HIGHER THAN ANY OTHER CRYPTO.
+#                                **** LOAD DATA IN S3 USIN LAMBDA****
 # CREATING AN AWS LAMDA FUNCTION & WRITE DOWN PYTHON CODE TO LOAD DATA IN S3
 ![image](https://user-images.githubusercontent.com/71961635/225418739-8f2f4743-5623-43fe-8ce9-3e9486371dee.png)
 ![image](https://user-images.githubusercontent.com/71961635/225418808-9ca30003-66a3-413d-91f7-275e753b4bb6.png)
-#CONFIGURE LAMBDA  FUCTION SETTINGS AND 
+## CONFIGURE LAMBDA  FUCTION SETTINGS AND POLICIES
 ![image](https://user-images.githubusercontent.com/71961635/225419792-997f730c-92b4-4001-9d2c-ffc92e4fb9a1.png)
 
-#CREATE A S3 BUCKET AND LOAD DATA INTO S3
+## CREATE A S3 BUCKET AND LOAD DATA INTO S3
 ![image](https://user-images.githubusercontent.com/71961635/225419253-38de7339-1db6-45b2-977d-4c1dc029cc3d.png)
 
 
